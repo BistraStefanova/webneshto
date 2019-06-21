@@ -6,4 +6,4 @@ dve dve dve ili tri?
 
 
 
-gospodine prochetete descriptiona na repoto pls
+gospodine prochetete descriptiona na repoto pls(descriptiona e gore nad commitite)
