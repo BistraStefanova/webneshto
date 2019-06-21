@@ -1,0 +1,191 @@
+.hiddenimg {
+  display: none;
+}
+.hiddenimg2 {
+  display: none;
+}
+.hiddentxt a{
+	color: #FA5858;
+	width: 250px;
+	text-align: left;
+	font-size: 20px;
+	float: left;
+	text-decoration:none;
+}
+
+.hiddentxt:hover ~ .hiddenimg {
+  display: block;
+}
+.links4:hover ~ .hiddenimg2 {
+display:block;
+}
+body{
+	font-family: courier;
+	background-image: url('https://wallpaper-house.com/data/out/6/wallpaper2you_113654.jpg');
+
+}
+
+nav{
+	
+}
+
+
+
+ul{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: black;
+	border-radius: 15px;
+	border-bottom: 3px solid #FA5858;
+}
+
+ul li{
+	display: inline-block;
+}
+
+ul li a{
+
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 18px;
+	margin-left: 30px;
+	text-decoration: none;
+	text-transform: uppercase;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+}
+
+li a:hover{
+	background-color: #FA5858;
+	transition: .5s;
+}
+
+.content vl{
+	border-left: 6px solid #FA5858;
+	height: 500px;
+}
+
+.vl{
+	width: 6px;
+	height: 250px;
+	background: #FA5858;
+	float: left;
+	margin-top: 170px;
+	margin-left: 120px;
+}
+.links a{
+	height: 20px;
+	margin-top: 250px;
+	margin-left: -270px;
+	color: #00bfff;
+	width: 250px;
+	text-align: left;
+	font-size: 20px;
+	float: left;
+	transition: 0.5s;
+	text-decoration: none;
+	}
+.links a:hover{
+		background-color: #FA5858;
+		transition: 0.5s;
+		background-image: url('https://ms-newsouthbooks-com-au.s3.amazonaws.com/WorkImage/WorkEdition/9781785902291.jpg.400x0_q20.jpg');
+		background-repeat: no-repeat;
+		background-position: center bottom;
+		display:block;
+}
+.links1 a:hover{
+		background-color: #FA5858;
+		transition: 0.5s;
+}
+.links2 a:hover{
+		background-color: #FA5858;
+		transition: 0.5s;
+}
+.links4 a:hover{
+		background-color: #FA5858;
+		transition: 0.5s;
+}
+.links1 a{
+	height: 20px;
+	margin-top: 300px;
+	margin-left: -270px;
+	color: #00bfff;
+	width: 250px;
+	text-align: left;
+	font-size: 20px;
+	float: left;
+	transition: 0.5s;
+	text-decoration: none;
+}
+.links2 a{
+	height: 20px;
+	margin-top: 350px;
+	margin-left: -270px;
+	color: #00bfff;
+	width: 250px;
+	text-align: left;
+	font-size: 20px;
+	float: left;
+	transition: 0.5s;
+	text-decoration: none;
+	}
+
+.links4 a{
+	height: 20px;
+	margin-top: 400px;
+	margin-left: -270px;
+	color: #00bfff;
+	width: 250px;
+	text-align: left;
+	font-size: 20px;
+	float: left;
+	transition: 0.5s;
+	text-decoration: none;
+	}
+.tekst p{
+	height: 20px;
+	margin-top: 170px;
+	margin-left: 20px;
+	color: white;
+	width: 250px;
+	text-align: left;
+	font-size: 20px;
+	float: left;
+
+}
+
+.identity img{
+	width: 600px;
+	height: 500px;
+	margin-top: 170px;
+	margin-left: 130px;
+	border-radius: 20px;
+
+}
+
+.identity img:hover{
+	 animation: shake 0.7s infinite;
+  transform: translate3d(0, 0, 0);
+  backface-visibility: hidden;
+  perspective: 1000px;
+}
+@keyframes shake {
+	10%, 100% {
+    transform: translate3d(-4px, 0, 0);
+  }
+  
+  20%, 80% {
+    transform: translate3d(6px, 0, 0);
+  }
+
+  30%, 50%, 70% {
+    transform: translate3d(-8px, 0, 0);
+  }
+
+  40%, 60% {
+    transform: translate3d(10px, 0, 0);
+  } 
+}
