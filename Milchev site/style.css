@@ -172,7 +172,7 @@ li a:hover{
   backface-visibility: hidden;
   perspective: 1000px;
 }
-@keyframes shake {
+@keyframes shake { /*TVA GO MRAZQ BTW*/
 	10%, 100% {
     transform: translate3d(-4px, 0, 0);
   }
